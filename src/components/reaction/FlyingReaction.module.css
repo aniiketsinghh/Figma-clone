@@ -1,3 +1,7 @@
+.disappear {
+  opacity: 0;
+}
+
 .goUp0 {
   opacity: 0;
   animation: goUpAnimation0 2s, fadeOut 2s;
@@ -7,7 +11,6 @@
   from {
     transform: translate(0px, 0px);
   }
-
   to {
     transform: translate(0px, -400px);
   }
@@ -22,7 +25,6 @@
   from {
     transform: translate(0px, 0px);
   }
-
   to {
     transform: translate(0px, -300px);
   }
@@ -37,7 +39,6 @@
   from {
     transform: translate(0px, 0px);
   }
-
   to {
     transform: translate(0px, -200px);
   }
@@ -51,7 +52,6 @@
   from {
     transform: translate(0px, 0px);
   }
-
   to {
     transform: translate(50px, 0px);
   }
@@ -65,7 +65,6 @@
   from {
     transform: translate(0px, 0px);
   }
-
   to {
     transform: translate(100px, 0px);
   }
@@ -79,7 +78,6 @@
   from {
     transform: translate(0px, 0px);
   }
-
   to {
     transform: translate(-50px, 0px);
   }
@@ -89,7 +87,6 @@
   from {
     opacity: 1;
   }
-
   to {
     opacity: 0;
   }

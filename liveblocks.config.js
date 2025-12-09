@@ -10,4 +10,11 @@ export const {
   useSelf,
   useOthers,
   useUpdateMyPresence,
+    useMutation,
+  useRedo,
+  useStorage,
+  useUndo,
+  useCreateThread,
+   useThreads, useUser, useEditThreadMetadata 
+
 } = createRoomContext(client);
