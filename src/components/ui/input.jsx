@@ -1,5 +1,5 @@
 import React, { forwardRef } from "react";
-import { cn } from "@/lib/utils"; // keep this if you have your utility function
+import { cn } from "../../lib/utils.js"; // keep this if you have your utility function
 
 const Input = forwardRef(({ className, type, ...props }, ref) => {
   return (

@@ -1,5 +1,5 @@
-import { exportToPdf } from "../../lib/utils";
-import { Button } from "../ui/button";
+import { exportToPdf } from "../../lib/utils.js";
+import { Button } from "../ui/button.jsx";
 
 export default function Export() {
   return (

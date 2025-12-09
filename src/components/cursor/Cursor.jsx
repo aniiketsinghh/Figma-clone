@@ -1,5 +1,5 @@
 import React from "react";
-import CursorSVG from "../assets/CursorSVG";
+import CursorSVG from "../../assets/CursorSVG.jsx";
 
 const Cursor = ({ color, x, y, message }) => {
   return (

@@ -1,7 +1,7 @@
 import React, { forwardRef } from "react";
 import * as TooltipPrimitive from "@radix-ui/react-tooltip";
 
-import { cn } from "@/lib/utils"; // keep this if you have your utility function
+import { cn } from "../../lib/utils.js";
 
 const TooltipProvider = TooltipPrimitive.Provider;
 const Tooltip = TooltipPrimitive.Root;

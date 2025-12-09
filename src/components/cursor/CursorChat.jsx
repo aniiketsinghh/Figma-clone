@@ -1,5 +1,5 @@
 import React from "react";
-import CursorSVG from "../assets/CursorSVG";
+import CursorSVG from "../../assets/CursorSVG.jsx";
 
 const CursorChat = ({ cursor, cursorState, setCursorState, updateMyPresence }) => {
   const handleChange = (e) => {

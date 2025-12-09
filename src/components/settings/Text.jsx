@@ -2,7 +2,7 @@ import {
   fontFamilyOptions,
   fontSizeOptions,
   fontWeightOptions,
-} from "../../constants";
+} from "../../constants/index.js";
 
 import {
   Select,

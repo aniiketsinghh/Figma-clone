@@ -2,7 +2,7 @@ import React, { forwardRef } from "react";
 import * as SelectPrimitive from "@radix-ui/react-select";
 import { Check, ChevronDown, ChevronUp } from "lucide-react";
 
-import { cn } from "@/lib/utils"; // keep this if you have your utility function
+import { cn } from "../../lib/utils.js"; // keep this if you have your utility function
 
 const Select = SelectPrimitive.Root;
 const SelectGroup = SelectPrimitive.Group;

@@ -1,5 +1,5 @@
-import { Label } from "../ui/label";
-import { Input } from "../ui/input";
+import { Label } from "../ui/label.jsx";
+import { Input } from "../ui/input.jsx"
 
 const dimensionsOptions = [
   { label: "W", property: "width" },
